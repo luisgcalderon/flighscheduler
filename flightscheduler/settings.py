@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'flightscheduler.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'flightscheduler_db',
-        'USER': 'flightscheduler_user',
-        'PASSWORD': 'flightscheduler_pwd',
-        'HOST': '192.168.100.6',
+        'NAME': 'flightscheduler',
+        'USER': 'user_django',
+        'PASSWORD': 'ps_flightscheduler',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
