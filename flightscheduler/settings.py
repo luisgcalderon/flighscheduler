@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app.flights.apps',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +81,7 @@ DATABASES = {
         'NAME': 'flightscheduler',
         'USER': 'user_django',
         'PASSWORD': 'ps_flightscheduler',
-        'HOST': 'localhost',
+        'HOST': '40.84.210.89',
         'PORT': '5432',
     }
 }
